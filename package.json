@@ -3,19 +3,42 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@craco/craco": "^6.2.0",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "aos": "^2.3.4",
+    "axios": "^0.21.1",
+    "debounce": "^1.2.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-hook-form": "^7.12.2",
+    "react-hot-toast": "^2.1.0",
+    "react-indiana-drag-scroll": "^2.0.1",
+    "react-lazy-load-image-component": "^1.5.1",
+    "react-modal": "^3.14.3",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
-    "web-vitals": "^1.0.1"
+    "react-slick": "^0.28.1",
+    "react-transition-group": "^4.4.2",
+    "web-vitals": "^1.0.1",
+    "yup": "^0.32.9"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "craco start",
+    "build": "craco --max_old_space_size=4096 build",
+    "test": "craco test",
+    "eject": "craco eject",
+    "lint": "eslint .",
+    "build:css": "postcss src/styles/tailwind.css -o src/styles/index.css",
+    "watch:css": "postcss src/styles/tailwind.css -o src/styles/index.css -W",
+    "reset": "rm -rf node_modules package-lock.json yarn.lock && yarn && yarn start",
+    "deploy": "yarn build && firebase deploy --only hosting",
+    "deploy-all": "yarn build && firebase deploy",
+    "git": "git add . && git commit -m 'updated' &&  git push",
+    "git-deploy": "npm run git && npm run deploy",
+    "git-deploy-all": "npm run git && npm run deploy-all",
+    "analyze": "source-map-explorer build/static/js/main.*"
   },
   "eslintConfig": {
     "extends": [
@@ -34,5 +57,14 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@tailwindcss/custom-forms": "^0.2.1",
+    "@tailwindcss/postcss7-compat": "^2.1.0",
+    "@tailwindcss/typography": "^0.4.1",
+    "autoprefixer": "^9",
+    "postcss": "^7",
+    "source-map-explorer": "^2.4.2",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat"
   }
 }
