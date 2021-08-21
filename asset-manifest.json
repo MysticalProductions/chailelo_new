@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/chailelo_new/static/css/main.97ef2e09.chunk.css",
+    "main.js": "/chailelo_new/static/js/main.f9403aa1.chunk.js",
+    "main.js.map": "/chailelo_new/static/js/main.f9403aa1.chunk.js.map",
+    "runtime-main.js": "/chailelo_new/static/js/runtime-main.8c575e4b.js",
+    "runtime-main.js.map": "/chailelo_new/static/js/runtime-main.8c575e4b.js.map",
+    "static/css/2.88d553a9.chunk.css": "/chailelo_new/static/css/2.88d553a9.chunk.css",
+    "static/js/2.ec69d42a.chunk.js": "/chailelo_new/static/js/2.ec69d42a.chunk.js",
+    "static/js/2.ec69d42a.chunk.js.map": "/chailelo_new/static/js/2.ec69d42a.chunk.js.map",
+    "static/js/3.b734fc24.chunk.js": "/chailelo_new/static/js/3.b734fc24.chunk.js",
+    "static/js/3.b734fc24.chunk.js.map": "/chailelo_new/static/js/3.b734fc24.chunk.js.map",
+    "index.html": "/chailelo_new/index.html",
+    "static/css/2.88d553a9.chunk.css.map": "/chailelo_new/static/css/2.88d553a9.chunk.css.map",
+    "static/css/main.97ef2e09.chunk.css.map": "/chailelo_new/static/css/main.97ef2e09.chunk.css.map",
+    "static/js/2.ec69d42a.chunk.js.LICENSE.txt": "/chailelo_new/static/js/2.ec69d42a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8c575e4b.js",
+    "static/css/2.88d553a9.chunk.css",
+    "static/js/2.ec69d42a.chunk.js",
+    "static/css/main.97ef2e09.chunk.css",
+    "static/js/main.f9403aa1.chunk.js"
+  ]
+}
