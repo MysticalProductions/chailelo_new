@@ -76,5 +76,3 @@ function VisitUs() {
 }
 
 export default VisitUs;
-{
-}

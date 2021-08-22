@@ -1,7 +1,4 @@
 import React from "react";
-import Slider from "react-slick";
-import NextArrow from "./../../components/NextArrow";
-import PrevArrow from "./../../components/PrevArrow";
 import ScrollContainer from "react-indiana-drag-scroll";
 import BestSellerCard from "../../components/BestSellerCard";
 function BestSellers() {
